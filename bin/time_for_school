@@ -36,7 +36,10 @@ new_guy.learn(new_thing)
 new_guy.learn(important_knowledge)
 
 
-puts Student.all.each
+def students_knowledge
+  Student.all.each { |student| puts student.knowledge
+end
+
 
 
 
