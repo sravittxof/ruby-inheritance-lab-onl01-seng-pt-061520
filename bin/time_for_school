@@ -23,7 +23,7 @@ jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "last_name"
 new_thing = "new thing"
-jim.learn(new_thing)
+
 
 important_knowledge = avi.teach
 steve.learn(important_knowledge)
