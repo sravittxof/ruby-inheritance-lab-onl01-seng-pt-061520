@@ -35,6 +35,6 @@ new_guy.learn(some_knowledge)
 new_guy.learn(new_thing)
 new_guy.learn(important_knowledge)
 
-Student.
+Student.all
 
 
