@@ -5,6 +5,10 @@ class Student < User
   
   @@all = []
   
+  def self.all
+    @@all
+  end
+  
   def initialize
     @knowledge = []
     @@all << self
